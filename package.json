@@ -1,0 +1,32 @@
+{
+  "name": "express-flashyo",
+  "version": "0.0.0",
+  "description": "Flash messaging for Express 4.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bencevans/express-flashyo.git"
+  },
+  "keywords": [
+    "express",
+    "flash",
+    "flahify",
+    "messages",
+    "notifications"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (https://bensbit.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/express-flashyo/issues"
+  },
+  "homepage": "https://github.com/bencevans/express-flashyo",
+  "devDependencies": {
+    "express": "^4.10.5",
+    "express-session": "^1.9.3",
+    "mocha": "^2.0.1",
+    "supertest": "^0.15.0"
+  }
+}
