@@ -10,8 +10,8 @@ Flash messaging for Express 4.x
 ## Initialise
 
 ```javascript
-app.use(require('express-session')); // OPTIONAL
-app.use(require('express-flashyo'));
+app.use(require('express-session')( /* session options */ ));
+app.use(require('express-flashyo')( /* flashyo options */ ));
 ```
 
 ## Use
